@@ -90,4 +90,8 @@ public class SeleniumBasePage {
     public String getTitle(){
         return driver.getTitle();
     }
+
+    public String getAttribute(By locator, String atributo){
+        return driver.findElement(locator).getAttribute(atributo);
+    }
 }

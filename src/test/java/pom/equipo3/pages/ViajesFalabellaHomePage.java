@@ -35,7 +35,9 @@ public class ViajesFalabellaHomePage extends SeleniumBasePage {
     public void autoCompletado(){
         click(AutoCompletadoTc09);
     }
-    public void sinFechasDefinidas(){click(botonSinFechasDefinidas);}
+    public void sinFechasDefinidas(){
+        click(botonSinFechasDefinidas);
+    }
     public void btnBuscar(){
         click(botonBuscar);
     }
